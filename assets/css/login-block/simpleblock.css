@@ -79,8 +79,10 @@
 .simpleblock a {
     text-decoration: none;
     color: gray;
+    
 }
 
 .simpleblock a:hover {
     color: darkgrey;
 }
+
