@@ -9,7 +9,12 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html {
+   height: 100%;
+}
+
 body {
     display: flex;
+    height: 100%;
     justify-content: space-between;
 }
