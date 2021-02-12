@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 3rem;
+    padding: 2rem;
 }
 
 .simpleblock img{
@@ -12,8 +12,13 @@
     height: auto;
 }
 
+.login-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .loginform {
-    margin: 150px 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,10 +31,11 @@
 .loginform .input-block input {
     width: 100%;
     margin: 0 auto;
-    /*padding: 1rem;*/
+    padding: 1rem;
     border: none;
     background-color: var(--color-background);
     border-radius: 3px;
+
 }
 
 .check-block {
@@ -40,6 +46,8 @@
 
 .loginform .input-block input[type="submit"] {
     margin-top: 3rem;
+    padding: 1rem;
+    transition: .2s ease-in-out;
 }
 
 .submit-block {
@@ -53,7 +61,6 @@
 
 .loginform #submit-button {
     width: unset;
-    padding: 2rem;
     font-size: 30px;
     font-weight: 900;
     border: .3rem solid gray;
