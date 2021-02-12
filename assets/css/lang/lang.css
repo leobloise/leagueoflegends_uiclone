@@ -1,0 +1,18 @@
+.lang {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+    color: #403D52;
+} 
+
+.lang span:after {
+    content: "";
+    background-image: url('../../img/globe.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    height: 18px;
+    width: 30px;
+    margin-left: .3rem;
+    display: inline-block;
+}

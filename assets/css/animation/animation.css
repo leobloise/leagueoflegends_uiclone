@@ -1,0 +1,6 @@
+.animation {
+    width: 100%;
+    background-image: url('../../img/banner_logo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}

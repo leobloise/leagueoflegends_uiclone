@@ -1,0 +1,74 @@
+.simpleblock {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
+.simpleblock img{
+    display: inline-block;
+    max-width: 20%;
+    height: 5%;
+    height: auto;
+}
+
+.loginform {
+    margin: 150px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-block label {
+    cursor: pointer;
+}
+
+.loginform .input-block input {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    border: none;
+    background-color: var(--color-background);
+    border-radius: 3px;
+}
+
+.check-block {
+    color: gray;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.loginform .input-block input[type="submit"] {
+    margin-top: 3rem;
+}
+
+.submit-block {
+    display: flex;
+}
+
+.loginform .input-block input:focus {
+    background-color: var(--color-login);
+    outline: none;
+}
+
+.loginform #submit-button {
+    width: unset;
+    padding: 2rem;
+    font-size: 30px;
+    font-weight:900;
+    border: .3rem solid gray;
+    border-radius: 1rem;
+    outline: none;
+    background-color: white;
+    color: gray;
+    cursor: pointer;
+}
+
+.simpleblock a {
+    text-decoration: none;
+    color: gray;
+}
+
+.simpleblock a:hover {
+    color: darkgrey;
+}
